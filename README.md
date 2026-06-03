@@ -15,7 +15,7 @@ A web-based text summarization app powered by a fine-tuned **T5 transformer** mo
 ## Model
 
 - **Base model:** `t5-small` from HuggingFace Transformers
-- **Fine-tuned on:** [SAMSum Dataset](https://huggingface.co/datasets/samsum) — 14,732 training samples of conversational dialogues with human-written summaries
+- **Fine-tuned on:** `samsum dataset` - 14,732 training samples of conversational dialogues with human-written summaries
 - **Training:** 6 epochs, ~4000 samples, using HuggingFace `Trainer` API
 
 ---
