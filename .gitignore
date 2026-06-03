@@ -1,0 +1,6 @@
+saved_summary_model/
+results/
+*.bin
+*.pt
+*.safetensors
+*.h5
