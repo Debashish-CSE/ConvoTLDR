@@ -6,7 +6,7 @@ A web-based text summarization app powered by a fine-tuned **T5 transformer** mo
 
 ## Demo
 
-![ConvoTLDR UI](https://img.shields.io/badge/Status-Live-brightgreen)
+![ConvoTLDR Screenshot](demo.png)
 
 > Enter any conversation or article → click **Summarize** → get a clean, concise summary.
 
