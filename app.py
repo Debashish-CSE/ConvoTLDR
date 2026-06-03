@@ -77,4 +77,4 @@ async def summarize(dialogue_input: DialogueInput):
     return {"summary": summary} # response is send as a json object
 
 
-# to run the app: uvicorn app:app --reload
+# to run the app:python -m uvicorn app:app --reload
