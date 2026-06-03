@@ -17,7 +17,6 @@ A web-based text summarization app powered by a fine-tuned **T5 transformer** mo
 - **Base model:** `t5-small` from HuggingFace Transformers
 - **Fine-tuned on:** [SAMSum Dataset](https://huggingface.co/datasets/samsum) — 14,732 training samples of conversational dialogues with human-written summaries
 - **Training:** 6 epochs, ~4000 samples, using HuggingFace `Trainer` API
-- **Final training loss:** ~0.92
 
 ---
 
@@ -65,7 +64,6 @@ pip install -r requirements.txt
 
 The fine-tuned model is not included in this repo due to file size. Either:
 - Train it yourself using `Text_Summarizer.ipynb`
-- Or load directly from HuggingFace Hub (see notebook)
 
 **4. Run the app**
 ```bash
@@ -123,6 +121,12 @@ python-multipart
 - The model runs on **GPU** if available, falls back to **CPU**
 - Input is capped at **512 tokens**; output summary at **150 tokens**
 - Uses **beam search** (`num_beams=4`) for better summary quality
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
